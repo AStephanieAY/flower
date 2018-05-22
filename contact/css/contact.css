@@ -1,0 +1,270 @@
+.top{
+    width: 100%;
+    height: 80px;
+    background: rgba(240, 244, 232, 0.24);
+    display: flex;
+    justify-content: center;
+    /*border: 1px solid #f0eff4;*/
+}
+.top .topNei{
+    width: 1400px;
+    height: 100%;
+    /*background: #3a79be;*/
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+}
+.top .topNei .tNone{
+    display: block;
+    width:280px;
+    height: 76px;
+    text-align: center;
+    line-height: 76px;
+    margin-right: 10px;
+    color: #000;
+    /*background: red;*/
+}
+.top .topNei .tNone:hover{
+    border-bottom: 4px solid #000000;
+}
+.top .topNei .tNone:nth-child(5){
+    border-bottom: 4px solid #000000;
+}
+.banner{
+    width: 100%;
+    height: 550px;
+    /*background: #84ccc9;*/
+    background-image: url("../img/800 (1).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner > .con{
+    font-size: 26px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 50px;
+    padding-top: 150px;
+}
+.time{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time > .timeNei{
+    width: 1200px;
+    height: auto;
+    /*background: #84ccc9;*/
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.time > .timeNei > .time1{
+    width: 800px;
+    height: 10px;
+    border-bottom: 2px solid #000000;
+    /*background: #d23a41;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time > .timeNei > .time1 > span{
+    width: 200px;
+    /*height: 100px;*/
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    /*line-height: 100px;*/
+    background: #ffffff;
+}
+.time > .timeNei > .time2{
+    width:100%;
+    height: 100px;
+    /*background: #84ccc9;*/
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time > .timeNei > .time2 > .round{
+    width: 100px;
+    height: 100px;
+    margin-right: -20px;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    text-align: center;
+    line-height: 100px;
+}
+.time > .timeNei > p.time3{
+     width: 100%;
+     height: 50px;
+     /*background: #84ccc9;*/
+     margin-top: 20px;
+     text-align: center;
+     line-height: 50px;
+ }
+.time > .timeNei > p.time4{
+    width: 100%;
+    height: 50px;
+    /*background: #84ccc9;*/
+    margin-top: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+.time > .timeNei > .Qrcode{
+    width: 100%;
+    height: 130px;
+    /*background: yellow;*/
+    display: flex;
+    justify-content: center;
+}
+.time > .timeNei > .Qrcode > .Q1{
+    width: 200px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+}
+.time > .timeNei > .Qrcode > .Q1 >img{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+.time > .timeNei > .Qrcode > .Q1 >span{
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
+.contact{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact > .conNei{
+    width: 1200px;
+    height: auto;
+    /*background: #84ccc9;*/
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact > .conNei > .conN1{
+    width: 800px;
+    height: 10px;
+    border-bottom: 2px solid #000000;
+    /*background: #d23a41;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact > .conNei > .conN1 > span{
+    width: 200px;
+    /*height: 100px;*/
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    /*line-height: 100px;*/
+    background: #ffffff;
+}
+.contact > .conNei > .conN2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+    align-items: center;
+}
+.contact > .conNei > .conN2 > img {
+    display: block;
+    width: 300px;
+    height: 230px;
+    margin-right: 50px;
+}
+.contact > .conNei > .conN2 > .conliuyan{
+    width:600px ;
+    height: 350px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+
+}
+.contact > .conNei > .conN2 > .conliuyan >h3{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.contact > .conNei > .conN2 > .conliuyan >.fromgroup{
+    width: 100%;
+    height: 250px;
+}
+.contact > .conNei > .conN2 > .conliuyan >.fromgroup > input{
+    width: 95%;
+    height: 50px;
+    border: 2px solid #cccccc;
+    margin: 10px 8px 5px 12px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.contact > .conNei > .conN2 > .conliuyan >.fromgroup >textarea{
+    width: 95%;
+    height: 150px;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 10px 8px 5px 12px;
+}
+.contact > .conNei > .conN2 > .conliuyan >.fromgroup > .tips{
+    width: 95%;
+    font-size: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+.contact > .conNei > .conN2 > .conliuyan >.fromgroup  >button{
+    width: 95%;
+    height: 20px;
+    outline: none;
+    border: none;
+    background: #cccccc;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 5px;
+    margin: 10px 8px 5px 12px;
+}
+.bottom{
+    width: 100%;
+    height: 300px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.bottom .nei4{
+    width:1200px;
+    height:216px ;
+    /*background: #84ccc9;*/
+}
+.bottom .nei4 .bBox{
+    width: 100%;
+    height: 40px;
+    /*background: #58c646;*/
+    margin-top: 2px;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.bottom .nei4 .bBox i{
+    font-size: 16px;
+    margin-left: 20px;
+}

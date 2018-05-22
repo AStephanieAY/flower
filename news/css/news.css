@@ -1,0 +1,315 @@
+.top{
+    width: 100%;
+    height: 80px;
+    /*background:  #d4d9df;*/
+    display: flex;
+    justify-content: center;
+    /*border: 1px solid #ffffff;*/
+}
+.top .topNei{
+    width: 1200px;
+    height: 100%;
+    /*background: #3a79be;*/
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+}
+.top .topNei .tNone{
+    display: block;
+    width:280px;
+    height: 76px;
+    text-align: center;
+    line-height: 76px;
+    margin-right: 10px;
+    color: #000;
+    /*background: red;*/
+}
+.top .topNei .tNone:hover{
+    border-bottom: 4px solid #000000;
+}
+.top .topNei .tNone:nth-child(4){
+    border-bottom: 4px solid #000000;
+}
+.banner{
+    width: 100%;
+    height: 576px;
+    background-image: url("../img/true (1).jpg");
+    background-size: cover;
+    background-position: center;
+}
+.banner > .con{
+    font-size: 26px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 50px;
+    padding-top: 150px;
+}
+.news{
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.news .newsTop{
+    width:1200px;
+    height: 500px;
+    position: relative;
+    margin-top: 150px;
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+}
+.news .newsTop .nTLeft{
+    width: 700px;
+    height: 100%;
+}
+
+.news .newsTop .nTLeft span,p{
+    z-index: 100;
+}
+.news .newsTop .nTLeft .p1{
+    border-top: 2px solid #000000;
+    padding-top: 5px;
+}
+.news .newsTop .nTLeft .newsCPic{
+    width:100%;
+    height: 50px;
+    background-image: url("../img/txt.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    z-index: 100;
+}
+.news .newsTop .nTRight{
+    width: 500px;
+    height: 100%;
+    /*background: #58c646;*/
+    margin-left: 150px;
+    display: flex;
+}
+.news .newsTop .nTRight span{
+    width: 30px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    line-height: 40px;
+}
+.news .newsTop .nTRight .nTRBox{
+    width: 470px;
+    height: 100%;
+    border-top-right-radius:50px ;
+    border-bottom-right-radius: 50px;
+    box-sizing: border-box;
+    background-image: url("../img/pic6.png");
+    background-position: center;
+}
+.news .newsCenter{
+    width: 1200px;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+/*.news .newsCenter .newsCBox{*/
+    /*width: 500px;*/
+    /*height: auto;*/
+    /*!*background: rgba(184,184,184,0.2);*!*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+/*}*/
+.news .newsCenter .newsCB1{
+    width: 100%;
+    height: 300px;
+    /*background:#58c646 ;*/
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.news .newsCenter .newsCB1 .nCB1Box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.news .newsCenter .newsCB1 .nCB1Box span{
+    /*display: block;*/
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+.news .newsCenter .newsCB1 .nCB1Box .nCB1Rpic{
+    margin: 25px auto 25px auto ;
+    width: 300px;
+    height: 50px;
+    background-image: url("../img/txt1.png");
+    /*background-position: left;*/
+    background-repeat: no-repeat;
+}
+.news .newsCenter .newsCB1 .nCB1Box p{
+    width: 100%;
+    height: 200px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 55px;
+    border-top: 2px solid #000000;
+    padding-top: 5px;
+}
+.news .newsCenter .newsCB2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+
+    /*align-items: center;*/
+}
+.news .newsCenter .newsCB2 .nCB2R{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.news .newsCenter .newsCB2 .nCB2R span{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+.news .newsCenter .newsCB2 .nCB2R .nCB2Rpic{
+    width: 300px;
+    height: 50px;
+    background-image: url("../img/txt3.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    margin: 25px auto 25px auto ;
+}
+.news .newsCenter .newsCB2 .nCB2R p{
+    width: 100%;
+    height: 200px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 55px;
+    border-top: 2px solid #000000;
+    padding-top: 5px;
+}
+.news .nBottom{
+    width:1200px;
+    height: auto;
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.news .nBottom span{
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+}
+.news .nBottom .p3{
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+}
+.news .nBottom .nBPic1{
+    width:1200px;
+    height: 50px;
+    background-image: url("../img/txt4.png");
+    /*background-size: cover;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto 25px auto ;
+}
+.news .nBottom .nBBox{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #000000;
+}
+.news .nBottom .nBBox .nBBox1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.news .nBottom .nBBox .nBBox1 .circle1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    margin-top: 50px;
+    background-position: center;
+    background-size: cover;
+    padding: 2px;
+
+}
+.news .nBottom .nBBox .nBBox1 .circle1.pic1{
+    background-image: url("../img/circle3.jpg");
+}
+.news .nBottom .nBBox .nBBox1 .circle1.pic2{
+    background-image: url("../img/circle1.jpg");
+}
+.news .nBottom .nBBox .nBBox1 .circle1.pic3{
+    background-image: url("../img/pic2.png");
+}
+.news .nBottom .nBBox .nBBox1 .circle1.pic4{
+    background-image: url("../img/circle4.jpg");
+}
+.news .nBottom .nBBox  span{
+    width:250px ;
+    height: 100px;
+    font-size: 16px;
+    text-align: center;
+}
+.bottom1{
+    width: 100%;
+    height: 300px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+.bottom1 .nei4{
+    width:1200px;
+    height:216px ;
+    /*background: #84ccc9;*/
+}
+.bottom1 .nei4 .bBox{
+    width: 100%;
+    height: 40px;
+    /*background: #58c646;*/
+    margin-top: 2px;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.bottom1 .nei4 .bBox i{
+    font-size: 16px;
+    margin-left: 20px;
+}
+

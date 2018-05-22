@@ -1,0 +1,173 @@
+.top{
+    width: 100%;
+    height: 80px;
+    /*background:  #f0eff4;*/
+    display: flex;
+    justify-content: center;
+    border: 1px solid #f0eff4;
+}
+.top .topNei{
+    width: 1400px;
+    height: 100%;
+    /*background: #3a79be;*/
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+}
+.top .topNei .tNone{
+    display: block;
+    width:280px;
+    height: 76px;
+    text-align: center;
+    line-height: 76px;
+    margin-right: 10px;
+    color: #000;
+    /*background: red;*/
+}
+.top .topNei .tNone:hover{
+    border-bottom: 4px solid #000000;
+}
+.top .topNei .tNone:nth-child(3){
+    border-bottom: 4px solid #000000;
+}
+.item {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.item .itemNei{
+    width: 1400px;
+    height: 100%;
+    background: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.item .itemNei .itemNPic{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: #d23a41;
+    background-image: url("../img/pic2.jpg");
+    background-size: cover;
+    background-position: 0 -20px;
+    margin-top: 60px;
+}
+.item .itemNei  .itemNPic1{
+    width: 350px;
+    height: 100px;
+    background-position: center;
+    background-image: url("../img/pic6.png");
+    background-repeat: no-repeat;
+}
+.item .itemNei  .itemNPic2{
+    width: 350px;
+    height: 100px;
+    background-position: center;
+    background-image: url("../img/pic7.png");
+    background-repeat: no-repeat;
+}
+.itemOne {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.itemOne .itemONei{
+    width: 1400px;
+    height: auto;
+    background: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.itemOne .itemONei .iONTxt{
+    width: 666px;
+    height: 50px;
+    font-size: 22px;
+    margin-top: 70px;
+}
+.itemOne .itemONei span{
+    width:200px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 20px;
+}
+.itemOne .itemONei p {
+    width: 700px;
+    height: 300px;
+    font-size: 20px;
+    line-height: 50px;
+}
+.buy{
+    width: 100%;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+}
+.buy .buyNei{
+    width: 1400px;
+    height: 100%;
+    background: #f8f8f8;
+}
+.buy .buyNei .buyNTop{
+    width: 1400px;
+    height: 100px;
+    /*background: #f5dfbf;*/
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 100px;
+    text-align: center;
+}
+.buy .buyNei .buyNBottom{
+    width: 1400px;
+    height: 100px;
+    /*background: #f5dfbf;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buy .buyNei .buyNBottom .buyNB1{
+    width: 200px;
+    height: 50px;
+    font-size: 26px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    line-height: 50px;
+    text-align: center;
+}
+.buy .buyNei .buyNBottom .buyNB1:hover{
+    color: #ffffff;
+    background: #000000;
+}
+.bottom{
+    width: 100%;
+    height: 300px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+.bottom .nei4{
+    width:1400px;
+    height:216px ;
+    /*background: #84ccc9;*/
+}
+.bottom .nei4 .bBox{
+    width: 100%;
+    height: 40px;
+    /*background: #58c646;*/
+    margin-top: 2px;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.bottom .nei4 .bBox i{
+    font-size: 16px;
+    margin-left: 20px;
+}

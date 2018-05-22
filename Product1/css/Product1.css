@@ -1,0 +1,247 @@
+.top{
+    width: 100%;
+    height: 80px;
+    /*background:  #f0eff4;*/
+    display: flex;
+    justify-content: center;
+    border: 1px solid #f0eff4;
+}
+.top .topNei{
+    width: 1400px;
+    height: 100%;
+    /*background: #3a79be;*/
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+}
+.top .topNei .tNone{
+    display: block;
+    width:280px;
+    height: 76px;
+    text-align: center;
+    line-height: 76px;
+    margin-right: 10px;
+    color: #000;
+    /*background: red;*/
+}
+.top .topNei .tNone:hover{
+    border-bottom: 4px solid #000000;
+}
+.top .topNei .tNone:nth-child(3){
+    border-bottom: 4px solid #000000;
+}
+.logo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.logo .logoNei{
+    width: 1400px;
+    height: 100px;
+    /*background: #f5dfbf;*/
+    background-image: url("../img/logo3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    /*background-size: ;*/
+}
+.list{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.list .listNei{
+    width: 800px;
+    height: 100%;
+    /*background: #f5dfbf;*/
+    display: flex;
+}
+.list .listNei .listN1{
+    display: block;
+    width: 200px;
+    height: 100%;
+    /*background: #84ccc9;*/
+    text-align: center;
+    line-height: 60px;
+    font-size: 16px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+.list .listNei .listN1:nth-child(1){
+    border-right: 0;
+
+}
+.list .listNei .listN1:nth-child(2){
+    border-right: 0;
+    background: #000000;
+    color: #ffffff;
+}
+.list .listNei .listN1:nth-child(3){
+    border-right: 0;
+}
+.list .listNei .listN1:hover{
+    background: #000000;
+    color: #ffffff;
+}
+.product{
+    width: 100%;
+    height: auto;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+.product .pNei{
+    width: 1000px;
+    height: auto;
+    /*background: #84ccc9;*/
+}
+.product .pNei .jieshao{
+    width: 1000px;
+    height: 300px;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.product .pNei .pN1{
+
+    width: 1000px;
+    height:500px ;
+    /*background: orange;*/
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.product .pNei .pN1 .pN1Box{
+    width:2000px ;
+    height: 100%;
+    display: flex;
+    background: #84ccc9;
+    position: relative;
+}
+.product .pNei .pN1 .pN1Box .pimgBox{
+    display: block;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left:1000px;
+    top:0;
+}
+.product .pNei .pN1 .pN1Box .pimgBox:nth-child(1){
+    left: 0;
+}
+.product .pNei .pN1 .pN1Box .pimgBox:nth-child(2){
+    left: 500px;
+}
+.product .pNei .pN1 .pN1Box .pimgBox .pN1BPic{
+    width: 100%;
+    height: 100%;
+}
+
+.product .pNei .pN2{
+    width: 1000px;
+    height:250px ;
+    /*background: green;*/
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.product .pNei .pN2 .pN2Box{
+    width: 100%;
+    height: 100%;
+    /*background: orange;*/
+    display: flex;
+}
+.product .pNei .pN2 .pN2Box .ppicBox{
+    display: block;
+    width: 250px;
+    height: 250px;
+    background-image: url("../img/tu1.jpg");
+    background-position: center;
+    background-size: cover;
+    transition: transform 1s;
+    margin-right: 10px;
+}
+.product .pNei .pN2 .pN2Box .ppicBox:nth-child(2){
+    background-image: url("../img/tu2.jpg");
+}
+.product .pNei .pN2 .pN2Box .ppicBox:nth-child(3){
+    background-image: url("../img/tu5.jpg");
+}
+.product .pNei .pN2 .pN2Box .ppicBox:nth-child(4){
+    background-image: url("../img/tu4.jpg");
+    margin-right:0;
+}
+.product .pNei .pN2 .pN2Box .ppicBox:hover{
+    transform: scale(1.03)
+}
+.product .pNei .pN3{
+    width: 1000px;
+    height:300px ;
+    /*background: green;*/
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.product .pNei .pN3 .pN3Box{
+    width: 100%;
+    height: 100%;
+    /*background: orange;*/
+    display: flex;
+}
+.product .pNei .pN3 .pN3Box .ppicBox{
+    display: block;
+    width: 250px;
+    height: 100%;
+    background-image: url("../img/tu8.jpg");
+    background-position: center;
+    background-size: cover;
+    transition: transform 1s;
+    margin-right: 10px;
+}
+.product .pNei .pN3 .pN3Box .ppicBox:hover{
+    transform: scale(1.03)
+}
+.product .pNei .pN3 .pN3Box .ppicBox:nth-child(2){
+    background-image: url("../img/tu6.jpg");
+}
+.product .pNei .pN3 .pN3Box .ppicBox:nth-child(3){
+    background-image: url("../img/tu7.jpg");
+}
+.product .pNei .pN3 .pN3Box .ppicBox:nth-child(4){
+    background-image: url("../img/tu9.jpg");
+    margin-right:0;
+}
+.bottom{
+    width: 100%;
+    height: 300px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.bottom .nei4{
+    width:1400px;
+    height:216px ;
+    /*background: #84ccc9;*/
+}
+.bottom .nei4 .bBox{
+    width: 100%;
+    height: 40px;
+    /*background: #58c646;*/
+    margin-top: 2px;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.bottom .nei4 .bBox i{
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+
+
+
+

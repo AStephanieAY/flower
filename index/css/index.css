@@ -1,0 +1,571 @@
+.top{
+    width: 100%;
+    height: 80px;
+    /*background:  #f0eff4;*/
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    /*border: 1px solid #ffffff;*/
+}
+.top .topNei{
+    width: 1400px;
+    height: 100%;
+    /*background: #3a79be;*/
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+}
+.top .topNei .tNone{
+    display: block;
+    width:280px;
+    height: 76px;
+    text-align: center;
+    line-height: 76px;
+    margin-right: 10px;
+    color: #000;
+    /*background: red;*/
+}
+.top .topNei .tNone:hover{
+    border-bottom: 4px solid #000000;
+}
+.top .topNei .tNone:nth-child(1){
+    border-bottom: 4px solid #000000;
+}
+.banner {
+    width: 100%;
+    height: 656px;
+    position: relative;
+}
+.banner .pic{
+    width: 100%;
+    height: 656px;
+    position: absolute;
+    top: 0;
+    /*position: relative;*/
+}
+.banner .picbtn{
+    width: 100%;
+    height: 25px;
+    /*background: blueviolet;*/
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .picbtn .btn{
+    width: 30px;
+    height: 3px;
+    background: #ccc;
+    margin-left: 10px;
+}
+.banner .picbtn .btn.hot{
+    background: #000;
+}
+/*.banner .picbtn .btn:hover{*/
+    /*background-color: #000;*/
+/*}*/
+
+.guanyu{
+    width:100% ;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.guanyu .nei1{
+    padding: 40px 0;
+    width:1400px;
+    height: auto;
+    /*background: pink;*/
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.guanyu .nei1 .box{
+    width: 1400px;
+    height: 64px;
+    /*background: red;*/
+    display: flex;
+    justify-content: center;
+}
+.guanyu .nei1 .box .txt{
+    width: 200px;
+    height:30px ;
+    /*background:blue;*/
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000000;
+    justify-content: center;
+    align-items: center;
+}
+.guanyu .nei1 .box .txt .a{
+    display: block;
+    width: 130px;
+    height:30px ;
+    font-size: 16px;
+    background: #ffffff;
+}
+.guanyu .nei1 .box .txt .ab{
+    display: block;
+    width: 100px;
+    height:34px ;
+    font-size: 20px;
+    background: #ffffff;
+}
+.guanyu .nei1 .box1{
+    width: 1400px;
+    height:610px ;
+    /*background: #84ccc9;*/
+    display: flex;
+    justify-content: center;
+}
+.guanyu .nei1 .box1 .left{
+    width:600px;
+    height: 610px;
+    margin-right: 16px;
+}
+.guanyu .nei1 .box1 .left .guanyuTxt{
+    width: 142px;
+    height: 30px;
+    font-size: 20px;
+    /*background: #aea9a9;*/
+    border-bottom: 2px solid #000000;
+}
+.guanyu .nei1 .box1 .left .guanyuTxt1{
+    width: 100%;
+    height: 66px;
+    font-size: 18px;
+    /*background: red;*/
+}
+.guanyu .nei1 .box1 .left .guanyuPic{
+    width: 100%;
+    height: 200px;
+    /*background: #84ccc9;*/
+    background-image: url("../img/guanyupic.jpg");
+    background-size: auto;
+    background-position: left;
+    background-repeat: no-repeat;
+
+}
+.guanyu .nei1 .box1 .left .guanyuWord{
+    width: 100%;
+    height: 296px;
+    /*background: #f5dfbf;*/
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.guanyu .nei1 .box1 .left .guanyuWord p{
+    width:83% ;
+    height: 254px;
+    line-height: 38px;
+}
+.guanyu .nei1 .box1 .left .guanyuWord .guanyuBtn{
+    display: block;
+    width: 70px;
+    height: 40px;
+    border: 1px solid darkseagreen;
+    text-align: center;
+    line-height: 40px;
+}
+.guanyu .nei1 .box1 .left .guanyuWord .guanyuBtn:hover{
+    background: darkseagreen;
+    color: #ffffff;
+}
+.guanyu .nei1 .box1 .right{
+    width:700px;
+    height: 610px;
+    /*background: orange;*/
+}
+.guanyu .nei1 .box1 .right .guanyuRpic{
+    width: 695px;
+    height: 271px;
+    background: #84ccc9;
+    background-image: url("../img/tu1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.guanyu .nei1 .box1 .right .guanyuRpic1{
+     width: 100%;
+     height: 345px;
+     /*background: blue;*/
+     margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+ }
+.guanyu .nei1 .box1 .right .guanyuRpic1 .tu{
+    width: 221px;
+    height: 304px;
+    -webkit-background-size: inherit;
+    background-image: url("../img/tu2.png");
+    background-size: cover;
+}
+.guanyu .nei1 .box1 .right .guanyuRpic1 .tu1{
+    width: 180px;
+    height: 180px;
+    background-image: url("../img/tu10.png");
+    background-size: cover;
+    margin-left: 20px;
+}
+
+.chanpin{
+    width: 100%;
+    height: 850px;
+    padding: 40px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.chanpin .nei2{
+    width:1400px;
+    height: 100%;
+    /*background: yellow;*/
+}
+.chanpin .nei2 .box2{
+    width: 1400px;
+    height: 64px;
+    /*background: red;*/
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+}
+.chanpin .nei2 .box2 .txt{
+    width: 200px;
+    height:30px ;
+    /*background:blue;*/
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000000;
+    justify-content: center;
+    align-items: center;
+}
+.chanpin .nei2 .box2 .txt .a{
+    display: block;
+    width: 130px;
+    height:30px ;
+    font-size: 16px;
+    background: #ffffff;
+}
+.chanpin .nei2 .box2 .txt .ab{
+    display: block;
+    width: 100px;
+    height:34px ;
+    font-size: 20px;
+    background: #ffffff;
+}
+.chanpin .nei2 .box3{
+    width: 1400px;
+    height:630px ;
+    /*background: #84ccc9;*/
+    display: flex;
+    flex-direction: column;
+}
+.chanpin .nei2 .box3 .chanpinOne{
+    width: 1400px;
+    height: 315px;
+    /*background:lightcoral;*/
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.chanpin .nei2 .box3 .chanpinOne a{
+    display: block;
+    width: 335px;
+    height: 300px;
+    margin-right: 20px;
+    background: #84ccc9;
+    background-image: url("../img/pic.png");
+    background-size: cover;
+    position: relative;
+    transition:transform 1s;
+}
+.chanpin .nei2 .box3 .chanpinOne a:nth-child(2){
+    background-image: url("../img/tutu1.png");
+    background-size: cover;
+}
+.chanpin .nei2 .box3 .chanpinOne a:nth-child(4){
+    background-image: url("../img/tutu2.png");
+    background-size: cover;
+    margin-right: 0;
+}
+.chanpin .nei2 .box3 .chanpinOne a:nth-child(3){
+    background-image: url("../img/tutu3.png");
+    background-size: cover;
+}
+.chanpin .nei2 .box3 .opacity{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.chanpin .nei2 .box3  .opacity p{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    margin:200px auto;
+    color: #ffffff;
+    width: 200px;
+    border: 2px solid #ffffff;
+}
+.chanpin .nei2 .box3 .chanpinOne .pic2:hover{
+    transform:translate(0,-10px);
+}
+.chanpin .nei2 .box3 .chanpinOne .pic0:hover{
+    transform:translate(0,-10px);
+}
+.chanpin .nei2 .box3 .chanpinOne .pic3:hover{
+    transform:translate(0,-10px);
+}
+.chanpin .nei2 .box3 .chanpinOne .pic4:hover{
+    transform:translate(0,-10px);
+}
+/*.chanpin .nei2 .box3 .chanpinTwo{*/
+    /*width: 100%;*/
+    /*height: 315px;*/
+    /*!*background:yellow;*!*/
+/*}*/
+.chanpin .nei2 .box3 .chanpinTwo{
+    width: 1400px;
+    height: 315px;
+    /*background:lightcoral;*/
+    display: flex;
+    flex-direction: row;
+}
+.chanpin .nei2 .box3 .chanpinTwo a{
+    display: block;
+    width: 335px;
+    height: 300px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    /*background: #84ccc9;*/
+    background-image: url("../img/tu5.jpg");
+    background-size: cover;
+    background-position:top;
+    position: relative;
+    transition:transform 1s;
+}
+.chanpin .nei2 .box3 .chanpinTwo a:nth-child(2){
+    background-image: url("../img/tu7.jpg");
+    background-size: cover;
+}
+.chanpin .nei2 .box3 .chanpinTwo a:nth-child(4){
+    background-image: url("../img/tu8.jpg");
+    background-size: cover;
+    margin-right: 0;
+}
+.chanpin .nei2 .box3 .chanpinTwo a:nth-child(3){
+    background-image: url("../img/tu9.png");
+    background-size: 120%;
+
+}
+.chanpin .nei2 .box3 .chanpinTwo .pic5:hover{
+
+    transform:translate(0,-10px);
+}
+.chanpin .nei2 .box3 .chanpinTwo .pic6:hover{
+
+    transform:translate(0,-10px);
+}
+.chanpin .nei2 .box3 .chanpinTwo .pic7:hover{
+
+    transform:translate(0,-10px);
+}
+.chanpin .nei2 .box3 .chanpinTwo .pic8:hover{
+
+    transform:translate(0,-10px);
+}
+.chanpin .nei2 .box4{
+    width: 1400px;
+    height: 64px;
+    /*background: red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.chanpin .nei2 .box4 .chanpinBtn{
+    display: block;
+    width: 70px;
+    height: 40px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 40px;
+}
+.chanpin .nei2 .box4 .chanpinBtn:hover{
+    background: #000;
+    color: #ffffff;
+}
+.xinwen{
+    width: 100%;
+    height:600px;
+    /*background: #58c646;*/
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+.xinwen .nei3{
+    width: 1400px;
+    height: 600px;
+    /*background: blue;*/
+    display: flex;
+    flex-direction: column;
+}
+.xinwen .nei3 .xinwenBox{
+    width: 1400px;
+    height: 64px;
+    /*background: red;*/
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+}
+.xinwen .nei3 .xinwenBox .xinwenTxt{
+    width: 220px;
+    height:30px ;
+    /*background:blue;*/
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000000;
+    justify-content: center;
+    align-items: center;
+}
+.xinwen .nei3 .xinwenBox .xinwenTxt .a{
+    display: block;
+    width: 190px;
+    height:30px ;
+    font-size: 16px;
+    background: #ffffff;
+}
+.xinwen .nei3 .xinwenBox .xinwenTxt .ab{
+    display: block;
+    width: 100px;
+    height:34px ;
+    font-size: 20px;
+    background: #ffffff;
+}
+.xinwen .nei3 .xinwenZixun{
+    width: 100%;
+    height: 530px;
+    /*background: #d23a41;*/
+    display: flex;
+
+}
+.xinwen .nei3 .xinwenZixun .xwBtn{
+    width: 40px;
+    height:500px;
+    /*background: yellow;*/
+    line-height: 436px;
+    text-align: center;
+}
+.xinwen .nei3 .xinwenZixun .xwBtn i{
+    font-size: 40px;
+}
+.xinwen .nei3 .xinwenZixun .xwKd{
+    width: 1320px;
+    height: 530px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.xinwen .nei3 .xinwenZixun .xwKd .xwKuai{
+    width:3040px;
+    height:530px ;
+    /*background: blue;*/
+    flex-direction: row;
+    display: flex;
+    transition: transform ease 1s;
+
+}
+.xinwen .nei3 .xinwenZixun .xwKd .xwKuai .xwK{
+    width: 330px;
+    height: 530px;
+    /*background: #58c646;*/
+    /*margin-right:40px;*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+/*.xinwen .nei3 .xinwenZixun .xwKuai .xwK:nth-child(4){*/
+    /*margin-right:0;*/
+/*}*/
+.xinwen .nei3 .xinwenZixun .xwKd .xwKuai .xwK .xwKPic{
+    width:300px;
+    height: 300px;
+    /*background: #d23a41;*/
+    margin-top: 20px;
+    background-image:url("../img/xw1.png");
+    background-size: cover;
+    background-position: center;
+    transition: transform 1s;
+    background-repeat: no-repeat;
+}
+.xinwen .nei3 .xinwenZixun .xwKd .xwKuai .xwK .xwKPic1{
+     background-image:url("../img/xw2.png");
+ }
+.xinwen .nei3 .xinwenZixun .xwKd .xwKuai .xwK .xwKPic2{
+    background-image:url("../img/xw3.png");
+    background-position: 0 -80px;
+}
+.xinwen .nei3 .xinwenZixun .xwKd .xwKuai .xwK .xwKPic3 {
+    background-image: url("../img/xw4.jpg");
+}
+.xinwen .nei3 .xinwenZixun .xwKd .xwKuai .xwK .xwKPic:hover{
+    transform: scale(1.03);
+}
+.xinwen .nei3 .xinwenZixun .xwKd .xwKuai .xwK .xwKTxt{
+    width:300px ;
+    height: 100px;
+    font-size: 14px;
+    margin-top: 40px;
+    line-height: 26px;
+    margin-bottom: 26px;
+}
+.xinwen .nei3 .xinwenZixun .xwKd .xwKuai .xwK .xwKBtn{
+    display: block;
+    width: 70px;
+    height: 30px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 30px;
+}
+.xinwen .nei3 .xinwenZixun .xwKd .xwKuai .xwK .xwKBtn:hover{
+    background: #000;
+    color: #ffffff;
+}
+.bottom{
+    width: 100%;
+    height: 300px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.bottom .nei4{
+    width:1200px;
+    height:216px ;
+    /*background: #84ccc9;*/
+}
+.bottom .nei4 .bBox{
+    width: 100%;
+    height: 40px;
+    /*background: #58c646;*/
+    margin-top: 2px;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.bottom .nei4 .bBox i{
+    font-size: 16px;
+    margin-left: 20px;
+}
